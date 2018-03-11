@@ -1,6 +1,6 @@
 Flask==0.10.1
 Flask-HTTPAuth==3.1.2
-Jinja2==2.8
+Jinja2==2.4
 passlib==1.6.5
 python-dateutil==2.4.2
 requests==2.8.1
