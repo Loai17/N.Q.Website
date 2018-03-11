@@ -4,11 +4,11 @@ from sqlalchemy.exc import IntegrityError
 from model import *
 # from flask import Flask, request, redirect, url_for, send_from_directory, render_template
 from werkzeug.utils import secure_filename
-import locale, os
+# import locale, os
 from forms import ContactForm
 
 # Flask Mail
-from flask.ext.mail import Message, Mail
+from flask_mail import Message, Mail
  
 mail = Mail()
 
