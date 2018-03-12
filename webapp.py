@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 from forms import ContactForm
 
 # Flask Mail
-from flask_mail import Message, Mail
+from flask.ext.mail import Message, Mail
  
 mail = Mail()
 
