@@ -20,7 +20,7 @@ form input#subject {
 }
  
 form textarea#message {
-  width: 500px;
+  width: 400px;
   height: 100px;
   background-color: #fafafa;
   -webkit-border-radius: 3px;
